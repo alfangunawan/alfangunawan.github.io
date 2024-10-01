@@ -1,0 +1,87 @@
+body {
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  header {
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p.center {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .white {
+    color : white;
+  }
+  .red {
+    background-color :rgb(245, 0, 0);
+  }
+
+  .blue {
+    background-color: blue;
+  }
+
+  .horizontal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  .vertical {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  /* Hero */
+
+  .margin-hero {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #herotitle {
+    font-size: 75px;
+  }
+
+  .herofull {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a.herolink {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  #excess {
+    column-count: 3;
+    column-gap: 150px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  /* skills */
+
